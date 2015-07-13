@@ -6,6 +6,47 @@
 //  Copyright (c) 2015 DevMountain. All rights reserved.
 //
 
+/* MVC for Instagram, user shares photos,
+
+ Models-  
+ What objects exist and what do they hold?
+ 
+ -photos 
+ -comments associated with photo
+ -hashtags associated with photos
+ -number of likes a photo has
+ 
+ -account
+    -public user info: username,
+    -private user info: password,
+ 
+ 
+ 
+ Views-
+ 
+ Photo feed- table view that holds photos
+ 
+ -filter settings (maybe a list of methods?)
+ 
+ Photo
+  -table view for comments
+    -like button
+    -comment button
+ 
+ camera
+ 
+ 
+ profile- basic info- table view
+ 
+ 
+ 
+ 
+
+ Controller-
+ 
+ */
+
+
 #import "AppDelegate.h"
 
 #import "PersonController.h"

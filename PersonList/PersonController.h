@@ -6,6 +6,8 @@
 //  Copyright (c) 2015 DevMountain. All rights reserved.
 //
 
+//Model controller
+
 #import <Foundation/Foundation.h>
 #import "Person.h"
 
@@ -13,6 +15,7 @@
 
 @property (nonatomic, strong, readonly) NSArray *personList;
 
+//so we only have one instance of person Controller for the app
 + (PersonController *)sharedInstance;
 
 - (void)save;

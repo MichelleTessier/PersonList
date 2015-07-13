@@ -6,6 +6,8 @@
 //  Copyright (c) 2015 DevMountain. All rights reserved.
 //
 
+//Model
+
 #import <Foundation/Foundation.h>
 
 @interface Person : NSObject <NSCoding>
